@@ -18,7 +18,7 @@ class DBAcademyHelper:
     SPARK_CONF_CLUSTER_TAG_SPARK_VERSION = "spark.databricks.clusterUsageTags.sparkVersion"
 
     CATALOG_SPARK_DEFAULT = "spark_catalog"
-    CATALOG_UC_DEFAULT = "hive_metastore"
+    CATALOG_UC_DEFAULT = "playground_dev"
 
     TROUBLESHOOT_ERROR_TEMPLATE = "{error} Please see the \"Troubleshooting | {section}\" section of the \"Version Info\" notebook for more information."
 
